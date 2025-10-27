@@ -4,13 +4,13 @@
 
 The application is designed to automate purchasing in a retail chain. The users of the service are the buyer (the manager of the retail chain who purchases goods for sale in the store) and the supplier of goods.
 
-** Client (buyer): **
+**Client (buyer):**
 
 - The purchasing manager uses the API to make daily purchases from a catalogue that contains goods from several suppliers.
 - Goods from different suppliers can be specified in a single order, which will affect the delivery cost.
 - The user can log in, register and reset their password via the API.
 
-** Supplier: **
+**Supplier:**
 
 - Informs the service about price updates via the API.
 - Can enable and disable order acceptance.
@@ -19,7 +19,7 @@ The application is designed to automate purchasing in a retail chain. The users 
 ### Task
 To develop the backend part (Django) of the goods ordering service for retail chains.
 
-** Basic part: **
+**Basic part:**
 
 * Development of the service according to the ready-made specification (API);
 * Ability to add customisable fields (characteristics) for goods;
@@ -27,7 +27,7 @@ To develop the backend part (Django) of the goods ordering service for retail ch
 * Sending the delivery note to the administrator's email (for order fulfilment);
 * Sending the order to the customer's email (order confirmation).
 
-** Advanced part: **
+**Advanced part:**
 
 * Exporting goods;
 * Order admin panel (setting order status and notifying the customer);
